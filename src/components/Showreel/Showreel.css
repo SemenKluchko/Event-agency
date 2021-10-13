@@ -1,6 +1,6 @@
 .showreel-circle {
     display: block;
-    width: 112.7px;
+    width: 116.5px;
     height: auto;
     color: white;
     position: fixed;
@@ -10,6 +10,7 @@
     border-radius: 50%;
     -webkit-animation: spin 5s linear infinite;
     animation: spin 5s linear infinite;
+    
 }
 
 .showreel-circle:before {

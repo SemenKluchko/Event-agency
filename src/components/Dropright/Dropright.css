@@ -109,3 +109,9 @@
     }
   } 
   
+
+  @media screen and (max-width: 414px) { 
+    .dropright:hover .dropright-content {
+          display: none;
+      }
+  }
