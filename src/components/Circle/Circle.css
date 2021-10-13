@@ -1,0 +1,83 @@
+.section-circle {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 80vh;
+    width: 70vw;
+}
+
+.circle {
+    display: block;
+    position: absolute;
+    min-width: 515px;
+    min-height: 515px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); 
+    background: #FFCB46;
+    border-radius: 50%;
+    -webkit-filter: blur(30px);
+    filter: blur(30px); 
+    z-index: 0;
+}
+
+.circle-text {
+    display: block;
+    width: 71vw;
+    height: 12.5vw;
+    font: normal 700 58px/110% 'Grtsk Tera', Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #373737;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 1024px) { 
+    .circle {
+        min-width: 470px;
+        min-height: 470px;
+    }
+
+    .circle-text {
+        width: 724px;
+        height: 128px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) { 
+    .circle-text {
+        width: 568px;
+        height: 192px;
+    }
+    
+}
+
+@media screen and (max-width: 414px) { 
+    .circle {
+        min-width: 294px;
+        min-height: 294px;
+    }
+
+    .circle-text {
+        width: 353px;
+        height: 120px;
+        font-size: 36px;
+    }
+    
+}
