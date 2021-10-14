@@ -6,7 +6,7 @@ function Showreel(props) {
     const circleInstance = useRef();
 
     useEffect(() => {
-        new CircleType(circleInstance.current).radius(60);
+        new CircleType(circleInstance.current).radius(59.5);
     }, []);
 
 

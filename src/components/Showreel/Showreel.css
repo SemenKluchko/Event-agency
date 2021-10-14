@@ -3,9 +3,9 @@
     width: 116.5px;
     height: auto;
     color: white;
-    position: fixed;
-    bottom: 16%;
-    right: 35%;
+    position: absolute;
+    bottom: 10%;
+    right: 29%;
     font: normal 600 16px/140% 'Grtsk Tera', Arial, Helvetica, sans-serif;
     border-radius: 50%;
     -webkit-animation: spin 5s linear infinite;
@@ -37,22 +37,26 @@
     to {-webkit-transform:rotate(360deg);transform:rotate(360deg);}
   }
 
+
+
 @media screen and (max-width: 1024px) {
     .showreel-circle {
-        right: 30%;
+        right: 19%;
+
     }
   }
 
 @media screen and (max-width: 768px) {
     .showreel-circle {
         right: 23%;
+
     }
   }
 
 @media screen and (max-width: 414px) {
     .showreel-circle {
-        right: 17%;
-        bottom: 25%;
+        right: 15%;
+        bottom: 17%;
     }
     
   }

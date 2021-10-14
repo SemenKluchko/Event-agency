@@ -1,4 +1,5 @@
 .section-circle {
+    position: relative;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -22,7 +23,6 @@
     position: absolute;
     min-width: 515px;
     min-height: 515px;
-    margin: 0 auto;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
@@ -37,9 +37,9 @@
 
 .circle-text {
     display: block;
-    width: 71vw;
-    height: 12.5vw;
-    font: normal 700 58px/110% 'Grtsk Tera', Arial, Helvetica, sans-serif;
+    width: 1023px;
+    height: 180px;
+    font: normal 700 82px/110% 'Grtsk Tera', Arial, Helvetica, sans-serif;
     text-align: center;
     text-transform: uppercase;
     color: #373737;
@@ -49,8 +49,8 @@
 
 @media screen and (max-width: 1024px) { 
     .circle {
-        min-width: 470px;
-        min-height: 470px;
+        max-width: 470px;
+        max-height: 470px;
     }
 
     .circle-text {
