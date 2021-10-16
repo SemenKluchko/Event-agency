@@ -27,6 +27,7 @@ function Page() {
                     <div className="logo">
                         <span className="logo-text">logo</span>
                     </div>
+                    <button class="burger-btn" type="submit"></button>
                 </nav>
             </header>
             <main className="main">
