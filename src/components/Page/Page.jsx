@@ -3,7 +3,7 @@ import './Page.css';
 import Marquee from 'react-double-marquee';
 import Dropright from '../Dropright/Dropright';
 import Circle from '../Circle/Circle';
-import Showreel from '../Showreel/Showreel';
+
 
 
 
@@ -27,11 +27,11 @@ function Page() {
                     <div className="logo">
                         <span className="logo-text">logo</span>
                     </div>
+                    <button class="burger-btn" type="submit"></button>
                 </nav>
             </header>
             <main className="main">
-                <Circle />
-                <Showreel wheel={scroll} />
+                <Circle wheel={scroll} />
             </main>
             <aside className="aside-one">
                 <span className="aside-text-one">where?</span>

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Showreel from '../Showreel/Showreel';
 import './Circle.css';
 
 
@@ -18,7 +19,7 @@ function Circle() {
             <span className="circle-text" style={{
                 transform: `translate(${x * 25}px, ${y * 25}px)`
             }} >full-cycle event agency</span>
-
+            <Showreel />
         </section>
     );
 }
